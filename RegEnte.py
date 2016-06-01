@@ -20,11 +20,11 @@ print("QuakQuakQuakQuak.")
 main_pattern = re.compile(regex)
 help_pattern = re.compile(regex_helper)
 if main_pattern.match(string) and help_pattern.match(string):
-  print("Dein String matcht deine RegEx. Naknaknak.")
+  print("Dein String matcht deine RegEx. Naknaknak. Byebye!")
 elif main_pattern.search(string):
-  print("Deine RegEx findet sich im String wieder, aber da ist noch mehr.... Naknak.")
+  print("Deine RegEx findet sich im String wieder, aber da ist noch mehr.... Naknak. Wenn du mich suchst...")
 else:
-  print("Irgendwas stimmt noch nicht. Quak.") # und dann entweder nochmal versuchen, oder neu starten...
+  print("Irgendwas stimmt noch nicht. Quak. Try again, quakquak.") # und dann entweder nochmal versuchen, oder neu starten...
 
 
 
