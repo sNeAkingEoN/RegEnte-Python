@@ -4,4 +4,4 @@
 My first python script, asking you (in german) for a RegEx and a string to match while making silly duck noises.
 
 #### Why?
-For learning purposes. Me learning, that is.
+For learning purposes. Me learning Python 3, that is.
